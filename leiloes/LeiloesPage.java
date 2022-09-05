@@ -14,7 +14,7 @@ public class LeiloesPage extends PageObject{
 	public LeiloesPage(WebDriver browser) {
 		super(browser);
 	}
-
+	//carrega formulário
 	public CadastroLeilaoPage carregarFormulario() {
 		this.browser.navigate().to(URL_CADASTRA_LEILAO);
 		return new CadastroLeilaoPage(browser);
