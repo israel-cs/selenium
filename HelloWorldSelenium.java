@@ -10,7 +10,11 @@ public class HelloWorldSelenium {
 	public void hello() {
 		WebDriver browser = new ChromeDriver();
 		browser.navigate().to("http://localhost:8080/leiloes");
+
 		System.out.println("oká");
+
+		
+
 		browser.quit();
 	}
 	
