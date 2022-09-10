@@ -12,6 +12,7 @@ public class HelloWorldSelenium {
 		browser.navigate().to("http://localhost:8080/leiloes");
 
 		System.out.println("TST");
+
 		browser.quit();
 	}
 	
