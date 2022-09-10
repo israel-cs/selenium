@@ -11,9 +11,8 @@ public class HelloWorldSelenium {
 		WebDriver browser = new ChromeDriver();
 		browser.navigate().to("http://localhost:8080/leiloes");
 
-		System.out.println("TST");
-		ok
-
+		System.out.println("TST1");
+		
 		browser.quit();
 	}
 	
