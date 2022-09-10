@@ -11,12 +11,8 @@ public class HelloWorldSelenium {
 		WebDriver browser = new ChromeDriver();
 		browser.navigate().to("http://localhost:8080/leiloes");
 
-<<<<<<< Updated upstream
 		System.out.println("TST");
-		System.out.println("Tribunal");
-=======
-		System.out.println("TST - Tribunal");
->>>>>>> Stashed changes
+		ok
 
 		browser.quit();
 	}
